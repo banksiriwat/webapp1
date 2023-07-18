@@ -2,7 +2,7 @@ import streamlit as st
 import cv2
 import numpy as np
 
-st.title("ตรวจจับวัตถุสีแดง")
+st.title("ตรวจจับวัตถุสีแดง1")
 img_file = st.file_uploader("เปิดไฟล์ภาพ")
 
 if img_file is not None:    
